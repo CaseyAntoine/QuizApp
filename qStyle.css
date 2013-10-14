@@ -419,10 +419,8 @@ body{
       background: -ms-radial-gradient(circle, #FFFFFF, #F8F8F8);
 }
 
-/* Nav Bar */
-
-#nav{
-
+#wrapper{
+    
 }
 
 /*Progress Bar */
@@ -506,7 +504,7 @@ div#main div#mainBlock{
 }
 
 div#main h4{
-    margin-left: 225px;
+    margin-left: 90px;
 }
 
 form#answerForm{
@@ -515,4 +513,30 @@ form#answerForm{
 
 form#answerForm input{
     margin-bottom: 30px;
+}
+
+/* Answer/ Reset Buttons */
+
+input#submit{
+    margin-left: 95px;
+}
+
+input#reset{
+    margin-left: -100px;
+}
+
+/* Score */
+
+#score{
+    background: url("shineSmall.png") no-repeat scroll center top rgba(0, 0, 0, 0);
+    background-color: #074659;
+    border: 0.25px solid #074659;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px rgba(255, 255, 255, 0.3);
+    color: #C4C4C4;
+    font-size: 12px;
+    height:30px;
+    width:100px;
+    text-align: center;
+    margin: 3px 0 0 250px;
 }

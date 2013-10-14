@@ -8,8 +8,6 @@
 	</head>
 
 	<body>
-		<div id="nav">
-		</div>
 
 		<div id="wrapper">
 			<div class="progressBar">
@@ -33,21 +31,26 @@
 
 			<div id="main">
 				<div id="mainBlock">
-					<h1>Question 1:</h1>
+					<h1>Question <span id="question">1</span>:</h1>
 				</div>
-				<h4>This is the First Question...</h4>
+				<h4>Which of these is Europe's only agriculturally self-sufficient country? </h4>
 				<div>
 					<form id="answerForm">
-						<input type="radio" name="answer" value="First"> First Guess<br>
-						<input type="radio" name="answer" value="Second"> Second Guess<br>
-						<input type="radio" name="answer" value="Third"> Third Guess<br>
-						<input type="radio" name="answer" value="Fourth"> Fourth Guess<br>
-						<input id="submit" type="submit" value="Submit">
-						<input type="reset" value="Reset">
+						<input id="radio1" type="radio" name="answer" value="First"> Germany<br>
+						<input id="radio2" type="radio" name="answer" value="Second"> Italy<br>
+						<input id="radio3" type="radio" name="answer" value="Third"> France<br>
+						<input id="radio4" type="radio" name="answer" value="Fourth"> Romania<br>
+						<input id="reset" type="reset" value="Reset">
+						<input id="submit" type="submit" value="Submit">						
 					</form>
 				</div>
 			</div>
 
+			<div id="score">
+				<p>Score: <span id="tick">0</span> of 5</p>
+			</div>
+
+			<footer></footer>
 
 
 		</div>
